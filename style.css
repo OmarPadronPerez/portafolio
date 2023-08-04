@@ -1,6 +1,8 @@
 :root {
-    --color_principal: #15355d;
+    --color_principal: #5d7098;
+    --color_principal_hover: #315299;
     --color_secundario: #b0daeb;
+    --color_secundario_hover: #d5e7ee;
 }
 
 /*
@@ -9,8 +11,21 @@
   class="color-principal"
   class="color-secundario"
   */
-  body{
+  main{
     overflow: hidden;
+  }
+
+  .claro{
+    color: var(--color_secundario);
+  }
+  .claro:hover, .claro:active{
+    color: var(--color_secundario_hover);
+  }
+  .obscuro{
+    color: var(--color_principal);
+  }
+  .obscuro:hover,.obscuro:active{
+    color: var(--color_principal_hover);
   }
 
   /* Extra small devices (portrait phones, less than 576px)*/
