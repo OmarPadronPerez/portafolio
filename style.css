@@ -11,6 +11,17 @@
   class="color-principal"
   class="color-secundario"
   */
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap');
+  
+  body{
+    max-width: 1440px;
+    margin: auto;
+  }
+  .portada{
+    background-image: url(img/fondo1.webp);
+    background-size: cover;
+
+  }
   main{
     overflow: hidden;
   }
@@ -28,17 +39,63 @@
     color: var(--color_principal_hover);
   }
 
+  .descripcion h1,.descripcion h2{
+    color: white;
+    cursor: default;
+  }
+  
   /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {  }
+
+    .nav-item{
+        margin: auto;
+        padding: 10px;
+    }
+    .boton_menu{
+        font-size: 2rem;
+        text-decoration:none;
+    }
+    .portada .foto, .portada .descripcion{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .portada .foto img {
+        max-height: 200px;
+        max-width: 200px;
+        margin: auto;
+    }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 768px) {  
+    
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media (min-width: 992px) { 
+    .boton_menu{
+        padding: 20px;
+        font-size: 1.5rem;
+      }
+     
+      .portada .foto {
+        text-align: end;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .portada .descripcion{
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    .portada .foto img{
+        max-height: 300px;
+        max-width: 300px;
+        
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }

@@ -11,7 +11,7 @@ function cambio_color(color) {
     };
 }
 
-if (screen.width >= 576) {
+if (screen.width >= 992) {
     //quitar espacio en blanco del inicio
     let alto_menu = document.getElementById("menu").clientHeight;
     document.getElementById("principal").style.marginTop = "-" + alto_menu + "px";
