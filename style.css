@@ -17,7 +17,12 @@ body {
   max-width: 1440px;
   margin: auto;
 }
-.espacio{
+
+h1,h2,h3{
+  text-align: center;
+}
+
+.espacio {
   height: 30px;
 }
 
@@ -26,6 +31,7 @@ body {
   background-size: cover;
 
 }
+
 
 main {
   overflow: hidden;
@@ -55,7 +61,6 @@ main {
   cursor: default;
 }
 
-
 .nav-item {
   margin: auto;
   padding: 10px;
@@ -77,14 +82,30 @@ main {
   max-width: 200px;
   margin: auto;
 }
-.tecnologias div{
-  margin: 5px;
-  display:grid;
+
+.tecnologias div {
+  margin: auto;
+  margin-bottom: 15px;
+  display: grid;
   text-align: center;
   justify-content: center;
 }
-.tecnologias div img{
+
+.tecnologias div img {
   max-width: 130px;
+}
+
+.poco_mi div .imagen{
+  display: contents;
+
+}
+.poco_mi div .informacion {
+  display: inline;
+  vertical-align: middle;
+}
+
+.poco_mi div .informacion p {
+  text-align: justify;
 }
 
 
@@ -112,20 +133,26 @@ main {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .portada .descripcion div h1,.portada .descripcion div h2{
+    text-align: left;
+  }
 
   .portada .foto img {
     max-height: 300px;
     max-width: 300px;
 
   }
-  .tecnologias div{
-    display:grid;
+
+  .tecnologias div {
+    padding: 10px;
+    display: grid;
     margin: auto;
     text-align: center;
   }
-  
-  
-    
+
+
+
+
 
 }
 
