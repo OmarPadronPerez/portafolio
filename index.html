@@ -1,21 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-MX">
 
 <head>
-    <title>Title</title>
+    <title>Javier Padron</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" type="image/x-icon" href="img/logo.webp">
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
+    <!--libreria aos-->
+    <link rel="stylesheet" href="styles/aos.css">
+    <!--estilo general-->
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="regla.css">
 </head>
 
@@ -46,9 +46,12 @@
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Contacto</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item obscuro boton_menu" href="#">Linkedin</a>
-                                <a class="dropdown-item obscuro boton_menu" href="#">GitHub</a>
-                                <a class="dropdown-item obscuro boton_menu" href="#">Correo</a>
+                                <a class="dropdown-item obscuro boton_menu" 
+                                href="https://mx.linkedin.com/in/javierpadronperez">Linkedin</a>
+                                <a class="dropdown-item obscuro boton_menu" 
+                                href="https://github.com/OmarPadronPerez">GitHub</a>
+                                <a class="dropdown-item obscuro boton_menu"
+                                    href="mailto: omar.padron.perez@gmail.com">Correo</a>
                             </div>
                         </li>
                     </ul>
@@ -82,27 +85,32 @@
     <main id="principal" class="principal">
         <div id="portada" class="portada row justify-content-between">
             <div class="row portada2 justify-content-center align-items-center g-2">
-                <div class="col-12 col-md-4 foto">
+                <div class="col-12 col-lg-4 foto">
                     <img class="" src="img/foto.webp" class="img-fluid rounded-top" alt="">
+
+
                 </div>
                 <div class="d-none d-lg-block col-lg-1"></div>
-                <div class="col-12 col-md-7 descripcion">
+                <div class="col-12 col-lg-7 descripcion">
                     <h2 style="font-family: 'Handjet', cursive;">Hola, soy</h2>
                     <h1>Javier Omar Padrón Pérez</h1>
                     <h2>Desarrollador Front end</h2>
 
                 </div>
+                <div id="poco_mi"></div>
             </div>
-            <div id="poco_mi"></div>
+
         </div>
 
         <div class="espacio"></div>
         <div class="poco_mi">
-            <h2 class="titulo col-lg-12">Un poco de mi</h2>
+
 
             <div class="row justify-content-center align-items-center g-2">
                 <div class="col-11 col-lg-7 informacion">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consectetur unde ratione
+                    <h2 class="titulo col-lg-12 p-3">Un poco de mi</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, consectetur unde ratione
                         laborum soluta quasi blanditiis delectus aperiam hic aut sed velit, vitae, sint deserunt fugiat
                         quae reprehenderit! Culpa, porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
                         quibusdam, quo, qui atque, voluptatem mollitia nihil dolore quam aperiam voluptas impedit omnis
@@ -119,12 +127,12 @@
         <div class="espacio"></div>
         <div class="row justify-content-center align-items-center g-2" id="tecnologias">
             <div class="col-12 justify-content-center align-items-center" style="display: grid;">
-                <h2 class="titulo">Tecnologias</h2>
+                <h2 class="titulo">Tecnologías</h2>
             </div>
         </div>
 
         <div class="espacio"></div>
-        <div id="tecnologias" class="row justify-content-center align-items-center g-2 tecnologias">
+        <div id="tecnologias" class="row justify-content-center align-items-center g-2 tecnologias" data-aos="zoom-in">
             <div id="tec-1" class="col-5 col-md-3 col-lg-2">
                 <img src="img/html.webp" alt="">
                 HTML
@@ -142,26 +150,30 @@
                 React
             </div>
             <div id="tec-5" class="col-5 col-md-3 col-lg-2">
+                <img src="img/angular.webp" alt="">
+                Angular
+            </div>
+            <div id="tec-6" class="col-5 col-md-3 col-lg-2">
                 <img src="img/java.webp" alt="">
                 Java
             </div>
-            <div id="tec-6" class="col-5 col-md-3 col-lg-2">
+            <div id="tec-7" class="col-5 col-md-3 col-lg-2">
                 <img src="img/python.webp" alt="">
                 Phyton
             </div>
-            <div id="tec-7" class="col-5 col-md-3 col-lg-2">
+            <div id="tec-8" class="col-5 col-md-3 col-lg-2">
                 <img src="img/bootstrap.webp" alt="">
                 Bootstrap
             </div>
-            <div id="tec-8" class="col-5 col-md-3 col-lg-2">
+            <div id="tec-9" class="col-5 col-md-3 col-lg-2">
                 <img src="img/mysql.webp" alt="">
                 MYSQL
             </div>
-            <div id="tec-9" class="col-5 col-md-3 col-lg-2">
+            <div id="tec-10" class="col-5 col-md-3 col-lg-2">
                 <img src="img/Git.webp" alt="">
                 Git
             </div>
-            <div id="tec-10" class="col-5 col-md-3 col-lg-2">
+            <div id="tec-11" class="col-5 col-md-3 col-lg-2">
                 <img src="img/wordpress.webp" alt="">
                 Wordpress
             </div>
@@ -174,9 +186,9 @@
 
             <div class="row justify-content-center align-items-center g-2">
                 <h1 class="titulo">Portafolio</h1>
-                <div id="port-web" style="margin: 20px; padding: 10px; background-color: aqua;">
+                <div id="port-web" style="margin: 20px; padding: 10px; background-color: rgb(240, 240, 247);">
 
-                    <div class="boxesContainer" >
+                    <div class="boxesContainer">
                         <h2>Desarrollo web</h2>
                         <div class="cardBox">
                             <div class="card">
@@ -190,8 +202,10 @@
                                         <p>Pagina web usada como pagina principal por grupo Comebi</p>
                                         <h3>HERRAMIENTA USADA</h3>
                                         <p>Wordpress
-                                            <br>
-                                            <a href="https://comebi.mx/" target="_blank">Ver mas</a>
+                                            <br><br>
+                                            <a href="https://comebi.mx/" target="_blank">
+                                                Ver mas
+                                            </a>
                                         </p>
 
                                     </div>
@@ -207,10 +221,12 @@
                                     <p>Landing page</p>
                                 </div>
                                 <div class="back">
-                                    <p>Landing page echa para grupo Comebi, pagina que funcionó
-                                        como pantilla para el resto de sus fraccionamientos
-                                        <br> <a href="https://residencialloslagos.com.mx/azul/index.html"
-                                            target="_blank">Ver mas</a>
+                                    <p>Landing page echa para grupo Comebi, pagina que funcionó como plantilla para el
+                                        resto de sus fraccionamientos
+                                        <br> <br>
+                                        <a href="https://residencialloslagos.com.mx/azul/index.html" target="_blank">
+                                            Ver mas
+                                        </a>
                                     </p>
                                     <h3>HERRAMIENTAS USADAS </h3>
                                     <p>HTML, CSS, JavaScript, Bootstrap</p>
@@ -222,15 +238,38 @@
                         <div class="cardBox">
                             <div class="card">
                                 <div class="front">
+                                    <img src="img/portafolio/kuadra.webp" alt="">
+                                    <h3>Muebles Kuadra</h3>
+                                    <p>Lang page</p>
+                                </div>
+                                <div class="back">
+                                    <p>Página web echa para Muebles Kuadra funcionando como catálogo de sus modelos,
+                                        colores y tapizados disponibles
+                                        <br> <br>
+                                        <a href="kuadra/index.html" target="_blank">
+                                            Ver mas
+                                        </a>
+                                    </p>
+                                    <h3>HERRAMIENTAS USADAS</h3>
+                                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cardBox">
+                            <div class="card">
+                                <div class="front">
                                     <img src="img/portafolio/lagos.webp" alt="">
                                     <h3>Muebles Kuadra</h3>
                                     <p>Lang page</p>
                                 </div>
                                 <div class="back">
-                                    <p>Pagina web echa para Muebles kuadra funcionando como catalogo de sus modelos,
+                                    <p>Página web echa para Muebles kuadra funcionando como catálogo de sus modelos,
                                         colores y tapizados disponibles
-                                        <br><a href="https://residencialloslagos.com.mx/azul/index.html"
-                                            target="_blank">Ver mas</a>
+                                        <br><br>
+                                        <a href="https://residencialloslagos.com.mx/azul/index.html" target="_blank">
+                                            Ver mas
+                                        </a>
                                     </p>
                                     <h3>HERRAMIENTAS USADAS</h3>
                                     <p>HTML, CSS, JavaScript, Bootstrap</p>
@@ -249,30 +288,10 @@
                                 <div class="back">
                                     <p>Pagina web echa para Muebles kuadra funcionando como catalogo de sus modelos,
                                         colores y tapizados disponibles
-                                        <br><a href="https://residencialloslagos.com.mx/azul/index.html"
-                                            target="_blank">Ver
-                                            mas</a>
-                                    </p>
-                                    <h3>HERRAMIENTAS USADAS</h3>
-                                    <p>HTML, CSS, JavaScript, Bootstrap</p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cardBox">
-                            <div class="card">
-                                <div class="front">
-                                    <img src="img/portafolio/lagos.webp" alt="">
-                                    <h3>Muebles Kuadra</h3>
-                                    <p>Lang page</p>
-                                </div>
-                                <div class="back">
-                                    <p>Pagina web echa para Muebles kuadra funcionando como catalogo de sus modelos,
-                                        colores y tapizados disponibles
-                                        <br><a href="https://residencialloslagos.com.mx/azul/index.html"
-                                            target="_blank">Ver
-                                            mas</a>
+                                        <br> <br>
+                                        <a href="https://residencialloslagos.com.mx/azul/index.html" target="_blank">
+                                            Ver mas
+                                        </a>
                                     </p>
                                     <h3>HERRAMIENTAS USADAS</h3>
                                     <p>HTML, CSS, JavaScript, Bootstrap</p>
@@ -288,23 +307,38 @@
         </div>
 
 
-        <div style="height: 500px; background-color: red;"></div>
+        <div style="height: 100px; background-color: red;"></div>
+
 
     </main>
     <footer>
         <!-- place footer here -->
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        window.addEventListener("resize", cambiar);
+
+        function cambiar() {
+            location.reload()
+        }
+    </script>
+
+    <script src="script/script.js"></script>
     <!--libreria de animaciones-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="animaciones.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <!--<script defer src="script/animaciones.js"></script>-->
+
+    <!--script aos-->
+    <script src="script/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
         </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
