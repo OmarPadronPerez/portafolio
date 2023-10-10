@@ -34,7 +34,7 @@ if (screen.width >= 992) {
 }
 
 //tamano de la portada
-let alto_pantalla = screen.height;
-document.getElementById("portada").style.height = alto_pantalla + "px";
+/*let alto_pantalla = screen.height;
+document.getElementById("portada").style.height = alto_pantalla + "px";*/
 
 

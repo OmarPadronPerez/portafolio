@@ -36,6 +36,7 @@ img {
 .portada {
   background-image: url(../img/fondo1.webp);
   background-size: cover;
+  height: 100vh;
 
 }
 
@@ -249,15 +250,18 @@ main {
     transform: rotateY(0deg);
   }
 }
+
 @media screen and (max-width: 767px) {
   .cardBox {
     margin-left: 2.8%;
     margin-top: 3%;
     width: 46%;
   }
+
   .card {
     height: 285px;
   }
+
   .cardBox:last-child {
     margin-bottom: 3%;
   }
@@ -267,6 +271,7 @@ main {
   .cardBox {
     width: 94.5%;
   }
+
   .card {
     height: 400px;
   }
@@ -275,13 +280,31 @@ main {
 /* fin tarjetas*/
 
 
+footer {
+  margin: 0;
+  color: white;
+  background-color: rgb(1, 10, 51);
+}
+
+footer .agradecimiento {
+  height: 50px;
+  display: grid;
+}
+
+footer .iconos,
+footer .centro,
+footer .lateral {
+  display: grid;
+  margin: 10px;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
@@ -329,6 +352,20 @@ main {
     text-align: center;
   }
 
+  footer {
+    margin: 0;
+  }
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  footer .iconos,
+  footer .centro,
+  footer .lateral {
+    margin: 0;
+    height: 150px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
